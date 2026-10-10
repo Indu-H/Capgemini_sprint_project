@@ -1,0 +1,16 @@
+
+<suite name="SwagLabs Integration Suite">
+    <test name="Integration Tests">
+        <groups>
+            <run>
+                <include name="integration"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testScripts.ProductCatalogTest"/>
+            <class name="testScripts.CartTest"/>
+            <class name="testScripts.CheckoutTest"/>
+            <class name="testScripts.PurchaseTest"/>
+        </classes>
+    </test>
+</suite>

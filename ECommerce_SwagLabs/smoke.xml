@@ -1,0 +1,13 @@
+
+<suite name="SwagLabs Smoke Suite">
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testScripts.ProductCatalogTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+
+<suite name="SwagLabs Parallel Suite"
+       parallel="classes"
+       thread-count="3">
+
+    <test name="Parallel Module Tests">
+        <classes>
+            <class name="testScripts.LoginTest"/>
+            <class name="testScripts.CartTest"/>
+            <class name="testScripts.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>
+

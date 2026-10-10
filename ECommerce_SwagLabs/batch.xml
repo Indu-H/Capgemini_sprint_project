@@ -1,0 +1,18 @@
+
+<suite name="SwagLabs Batch Suite">
+    <test name="All Module Tests">
+        <classes>
+            <class name="testScripts.LoginTest"/>
+            <class name="testScripts.LoginNegativeTest"/>
+            <class name="testScripts.ProductCatalogTest"/>
+            <class name="testScripts.ProductCatalogNegativeTest"/>
+            <class name="testScripts.CartTest"/>
+            <class name="testScripts.CheckoutTest"/>
+            <class name="testScripts.PurchaseTest"/>
+            <class name="testScripts.PurchaseNegativeTest"/>
+            <class name="testScripts.LogoutTest"/>
+            <class name="testScripts.ResetAppStateTest"/>
+        </classes>
+    </test>
+</suite>
+

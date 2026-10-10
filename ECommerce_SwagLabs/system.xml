@@ -1,0 +1,14 @@
+
+<suite name="SwagLabs System Suite">
+    <test name="System Tests">
+        <groups>
+            <run>
+                <include name="system"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testScripts.ProductCatalogTest"/>
+        </classes>
+    </test>
+</suite>
+

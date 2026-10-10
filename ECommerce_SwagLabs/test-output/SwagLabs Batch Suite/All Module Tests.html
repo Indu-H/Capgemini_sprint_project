@@ -1,0 +1,291 @@
+<html>
+<head>
+<title>TestNG:  All Module Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All Module Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 10 11:05:05 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>68 seconds (68199 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScripts.ProductCatalogTest.verifyProductCatalogToCartIntegration()'><b>verifyProductCatalogToCartIntegration</b><br>Test class: testScripts.ProductCatalogTest<br/>
+<a href="#Output-902096996" onClick='toggleBox("Output-902096996", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-902096996" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-902096996">
+INTEGRATION TEST PASSED: Product Catalog successfully adds a product to Cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ProductCatalogTest@5aa9e4eb</td></tr>
+<tr>
+<td title='testScripts.ProductCatalogTest.verifyLoginCatalogAndProductDetails()'><b>verifyLoginCatalogAndProductDetails</b><br>Test class: testScripts.ProductCatalogTest<br/>
+<a href="#Output-1562912969" onClick='toggleBox("Output-1562912969", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1562912969" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1562912969">
+SYSTEM TEST PASSED: Login -> Product Catalog -> Product Details<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ProductCatalogTest@5aa9e4eb</td></tr>
+<tr>
+<td title='testScripts.CheckoutTest.verifyCheckoutAndCompletePurchase()'><b>verifyCheckoutAndCompletePurchase</b><br>Test class: testScripts.CheckoutTest<br>Parameters: standard_user, secret_sauce, Indu, H, 583101<br/>
+<a href="#Output-423629474" onClick='toggleBox("Output-423629474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-423629474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-423629474">
+Entering login credentials<br/>
+Login successful and Product Catalog displayed<br/>
+Added Sauce Labs Backpack to cart<br/>
+Cart product verified<br/>
+Opened checkout details page<br/>
+Entered customer details<br/>
+Checkout overview verified<br/>
+FUNCTIONAL TEST PASSED: Checkout completed and order confirmation verified<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testScripts.CheckoutTest@139982de</td></tr>
+<tr>
+<td title='testScripts.ProductCatalogTest.verifyProductCatalogOpensSuccessfully()'><b>verifyProductCatalogOpensSuccessfully</b><br>Test class: testScripts.ProductCatalogTest<br/>
+<a href="#Output-2084457242" onClick='toggleBox("Output-2084457242", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2084457242" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2084457242">
+SMOKE TEST PASSED: Product Catalog opens successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ProductCatalogTest@5aa9e4eb</td></tr>
+<tr>
+<td title='testScripts.CartTest.verifyProductIsDisplayedInCart()'><b>verifyProductIsDisplayedInCart</b><br>Test class: testScripts.CartTest<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-2041553769" onClick='toggleBox("Output-2041553769", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2041553769" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2041553769">
+Entering login credentials<br/>
+Clicking login button<br/>
+Login successful and Product Catalog displayed<br/>
+Added Sauce Labs Backpack to cart<br/>
+FUNCTIONAL TEST PASSED: Product displayed in Cart and Checkout button available<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testScripts.CartTest@385c9627</td></tr>
+<tr>
+<td title='testScripts.ResetAppStateTest.verifyResetAppStateClearsCart()'><b>verifyResetAppStateClearsCart</b><br>Test class: testScripts.ResetAppStateTest<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-1343145833" onClick='toggleBox("Output-1343145833", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1343145833" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1343145833">
+Entering login credentials<br/>
+Login successful<br/>
+Product added to cart<br/>
+Clicked Reset App State<br/>
+FUNCTIONAL TEST PASSED: Reset App State cleared the cart<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>testScripts.ResetAppStateTest@229f66ed</td></tr>
+<tr>
+<td title='testScripts.ProductCatalogTest.verifyProductPriceSorting()'><b>verifyProductPriceSorting</b><br>Test class: testScripts.ProductCatalogTest<br/>
+<a href="#Output-2133998394" onClick='toggleBox("Output-2133998394", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2133998394" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2133998394">
+FUNCTIONAL TEST PASSED: Products are sorted by price from low to high<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ProductCatalogTest@5aa9e4eb</td></tr>
+<tr>
+<td title='testScripts.PurchaseNegativeTest.verifyCheckoutWithEmptyCustomerDetails()'><b>verifyCheckoutWithEmptyCustomerDetails</b><br>Test class: testScripts.PurchaseNegativeTest<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-1293967722" onClick='toggleBox("Output-1293967722", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1293967722" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1293967722">
+Logging in with valid credentials<br/>
+Adding product to cart<br/>
+Opening checkout without entering customer details<br/>
+Screenshot saved: C:\Users\Lenovo\eclipse-workspace\ECommerce_SwagLabs\screenshots\negative\03_Empty_Checkout_Details.png<br/>
+NEGATIVE TEST PASSED: Empty checkout details rejected with the expected error<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.PurchaseNegativeTest@217ed35e</td></tr>
+<tr>
+<td title='testScripts.LogoutTest.verifyUserCanLogout()'><b>verifyUserCanLogout</b><br>Test class: testScripts.LogoutTest<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-700816238" onClick='toggleBox("Output-700816238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-700816238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-700816238">
+Login successful<br/>
+FUNCTIONAL TEST PASSED: User logged out and returned to Login page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testScripts.LogoutTest@7dcf94f8</td></tr>
+<tr>
+<td title='testScripts.ProductCatalogNegativeTest.verifyUnauthorizedUserCannotAccessProductCatalog()'><b>verifyUnauthorizedUserCannotAccessProductCatalog</b><br>Test class: testScripts.ProductCatalogNegativeTest<br/>
+<a href="#Output-1879219501" onClick='toggleBox("Output-1879219501", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1879219501" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1879219501">
+Attempting to open Product Catalog without logging in<br/>
+Screenshot saved: C:\Users\Lenovo\eclipse-workspace\ECommerce_SwagLabs\screenshots\negative\02_Unauthorized_Catalog_Access.png<br/>
+NEGATIVE TEST PASSED: Unauthorized access redirected to Login page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ProductCatalogNegativeTest@6989da5e</td></tr>
+<tr>
+<td title='testScripts.LoginNegativeTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: testScripts.LoginNegativeTest<br>Parameters: locked_out_user, secret_sauce<br/>
+<a href="#Output-904612411" onClick='toggleBox("Output-904612411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-904612411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-904612411">
+Attempting login with username: locked_out_user<br/>
+Screenshot saved: C:\Users\Lenovo\eclipse-workspace\ECommerce_SwagLabs\screenshots\negative\02_Locked_Out_User.png<br/>
+NEGATIVE TEST PASSED: Locked-out user was prevented from logging in<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.LoginNegativeTest@3fc2959f</td></tr>
+<tr>
+<td title='testScripts.ProductCatalogTest.verifyLoginToProductCatalogIntegration()'><b>verifyLoginToProductCatalogIntegration</b><br>Test class: testScripts.ProductCatalogTest<br/>
+<a href="#Output-1881218549" onClick='toggleBox("Output-1881218549", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1881218549" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1881218549">
+INTEGRATION TEST PASSED: Login successfully navigates to Product Catalog<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ProductCatalogTest@5aa9e4eb</td></tr>
+<tr>
+<td title='testScripts.PurchaseTest.verifyUserCanCompletePurchase()'><b>verifyUserCanCompletePurchase</b><br>Test class: testScripts.PurchaseTest<br>Parameters: standard_user, secret_sauce, Indu, H, 583101<br/>
+<a href="#Output-353761154" onClick='toggleBox("Output-353761154", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-353761154" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-353761154">
+Login successful and Product Catalog displayed<br/>
+Sauce Labs Backpack added to cart<br/>
+Cart product verified successfully<br/>
+Checkout overview verified successfully<br/>
+FUNCTIONAL TEST PASSED: Login -> Cart -> Checkout -> Purchase<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testScripts.PurchaseTest@682b2fa</td></tr>
+<tr>
+<td title='testScripts.LoginTest.verifyValidLogin()'><b>verifyValidLogin</b><br>Test class: testScripts.LoginTest<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-35874744" onClick='toggleBox("Output-35874744", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-35874744" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-35874744">
+Login credentials entered<br/>
+SMOKE TEST PASSED: Valid login opens the Product Catalog successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.LoginTest@411f53a0</td></tr>
+<tr>
+<td title='testScripts.LoginNegativeTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: testScripts.LoginNegativeTest<br>Parameters: standard_user, wrong_password<br/>
+<a href="#Output-579660439" onClick='toggleBox("Output-579660439", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-579660439" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-579660439">
+Attempting login with username: standard_user<br/>
+Screenshot saved: C:\Users\Lenovo\eclipse-workspace\ECommerce_SwagLabs\screenshots\negative\01_Invalid_Login.png<br/>
+NEGATIVE TEST PASSED: Invalid credentials rejected with the expected error<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.LoginNegativeTest@3fc2959f</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SwagLabs Functional Suite">
+    <test name="Functional Tests">
+        <groups>
+            <run>
+                <include name="functional"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testScripts.LoginTest"/>
+            <class name="testScripts.ProductCatalogTest"/>
+            <class name="testScripts.CartTest"/>
+            <class name="testScripts.CheckoutTest"/>
+            <class name="testScripts.PurchaseTest"/>
+            <class name="testScripts.LogoutTest"/>
+            <class name="testScripts.ResetAppStateTest"/>
+        </classes>
+    </test>
+</suite>
+

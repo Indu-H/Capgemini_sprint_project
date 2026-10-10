@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login credentials entered]]>
+    </line>
+    <line>
+      <![CDATA[SMOKE TEST PASSED: Valid login opens the Product Catalog successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login credentials entered]]>
+    </line>
+    <line>
+      <![CDATA[SMOKE TEST PASSED: Valid login opens the Product Catalog successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login credentials entered]]>
+    </line>
+    <line>
+      <![CDATA[SMOKE TEST PASSED: Valid login opens the Product Catalog successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-10T11:07:12 IST" name="SwagLabs Cross Browser Suite" finished-at="2026-10-10T11:07:33 IST" duration-ms="21395">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.verifyValidLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@78691363]" name="verifyValidLogin" class="testScripts.LoginTest"/>
+        <method signature="LoginTest.verifyValidLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@6ad82709]" name="verifyValidLogin" class="testScripts.LoginTest"/>
+        <method signature="LoginTest.verifyValidLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@7817fd62]" name="verifyValidLogin" class="testScripts.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-10-10T11:07:12 IST" name="Chrome Tests" finished-at="2026-10-10T11:07:17 IST" duration-ms="4585">
+      <class name="testScripts.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testScripts.LoginTest@78691363]" started-at="2026-10-10T11:07:13 IST" name="setUp" finished-at="2026-10-10T11:07:16 IST" duration-ms="2771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@78691363]" started-at="2026-10-10T11:07:16 IST" name="verifyValidLogin" data-provider="validLoginData" finished-at="2026-10-10T11:07:16 IST" duration-ms="710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login credentials entered]]>
+            </line>
+            <line>
+              <![CDATA[SMOKE TEST PASSED: Valid login opens the Product Catalog successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.LoginTest@78691363]" started-at="2026-10-10T11:07:16 IST" name="tearDown" finished-at="2026-10-10T11:07:17 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.LoginTest -->
+    </test> <!-- Chrome Tests -->
+    <test started-at="2026-10-10T11:07:12 IST" name="Firefox Tests" finished-at="2026-10-10T11:07:22 IST" duration-ms="9809">
+      <class name="testScripts.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testScripts.LoginTest@6ad82709]" started-at="2026-10-10T11:07:13 IST" name="setUp" finished-at="2026-10-10T11:07:21 IST" duration-ms="7748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@6ad82709]" started-at="2026-10-10T11:07:21 IST" name="verifyValidLogin" data-provider="validLoginData" finished-at="2026-10-10T11:07:21 IST" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login credentials entered]]>
+            </line>
+            <line>
+              <![CDATA[SMOKE TEST PASSED: Valid login opens the Product Catalog successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.LoginTest@6ad82709]" started-at="2026-10-10T11:07:21 IST" name="tearDown" finished-at="2026-10-10T11:07:22 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.LoginTest -->
+    </test> <!-- Firefox Tests -->
+    <test started-at="2026-10-10T11:07:12 IST" name="Edge Tests" finished-at="2026-10-10T11:07:33 IST" duration-ms="21395">
+      <class name="testScripts.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testScripts.LoginTest@7817fd62]" started-at="2026-10-10T11:07:13 IST" name="setUp" finished-at="2026-10-10T11:07:33 IST" duration-ms="19883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@7817fd62]" started-at="2026-10-10T11:07:33 IST" name="verifyValidLogin" data-provider="validLoginData" finished-at="2026-10-10T11:07:33 IST" duration-ms="397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login credentials entered]]>
+            </line>
+            <line>
+              <![CDATA[SMOKE TEST PASSED: Valid login opens the Product Catalog successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.LoginTest@7817fd62]" started-at="2026-10-10T11:07:33 IST" name="tearDown" finished-at="2026-10-10T11:07:33 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.LoginTest -->
+    </test> <!-- Edge Tests -->
+  </suite> <!-- SwagLabs Cross Browser Suite -->
+</testng-results>

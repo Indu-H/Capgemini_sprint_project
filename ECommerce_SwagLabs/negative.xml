@@ -1,0 +1,16 @@
+
+<suite name="SwagLabs Negative Suite">
+    <test name="Negative Tests">
+        <groups>
+            <run>
+                <include name="negative"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testScripts.LoginNegativeTest"/>
+            <class name="testScripts.ProductCatalogNegativeTest"/>
+            <class name="testScripts.PurchaseNegativeTest"/>
+        </classes>
+    </test>
+</suite>
+
